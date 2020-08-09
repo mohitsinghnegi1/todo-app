@@ -1,22 +1,18 @@
-# Todo-app
-
-Create a todo app using react
-
 # Objective
 
 Using ReactJS, create a simple single page application todo app
 
 ## Live Url - Project Hosted on Heroku Server
 
-- `https://lbb-assessment.herokuapp.com/`
+- `https://mohitsinghnegi1.github.io/todo-app/.`
 
 ## Clone this Repository
 
-- Open terminal and type - `git clone https://github.com/mohitsinghnegi1/LBB-Assessment.git`
+- Open terminal and type - `git clone https://github.com/mohitsinghnegi1/todo-app.git`
 
 ## Go to Root Directiory and Install Node Packages
 
-- `cd LBB-Assessment`
+- `cd todo-app`
 - `npm install`
 
 ## Start This Project on Localhost
@@ -24,35 +20,19 @@ Using ReactJS, create a simple single page application todo app
 - `npm start`
 - By default project will run on localhost 3000
 
-## Features
+## description
 
-1. Intigrate a google map using google map API
-2. Allows the user to drop a pin and see (public) images that have been taken at that location.
-3. Integrate Flickr API for fetching public images
-4. Mobile first + responsive
-5. Support server side pagination
+- The objective of this assessment is to determine your strengths and weaknesses in different
+  areas.
 
-## Additional Features Added:
+- You will need to set up a ReactJS project and deploy it to any platform
+- This project will contain one page only.
 
-1. Search photos by adding longitude and latitude in input fields.
-2. Zoom on hover and download or view full image by simply clicking on it.
-3. Show image as a square image, thumbnail, or in different sizes.
-4. Hosted this Assessment on Heroku
-
-## Screenshots
-
-# Google Map integration
-
-![Alt text](src/images/google-map.png?raw=true 'Google Map Integration')
-
-# Search By Value and Type of Image
-
-![Alt text](src/images/search-by-value-and-type.png?raw=true 'Search By Value and Type')
-
-# Server Side Pagination
-
-![Alt text](src/images/searver-side-pagination.png?raw=true 'Server Side Pagination')
-
-# Zoom and Download Feature
-
-![Alt text](src/images/zoom-and-download.png?raw=true 'Zoom and Download Feature')
+- This page will have two tabs as shown below, “To Do” and “To Read”
+- All of the cards for those two tabs should come from two different JSON files (one for each
+  tab)
+- The structure of the JSON you can decide, but all text and images like “Hair Appointment”,
+  “with Dr. Shobita”, “Today, 3:30PM” and the icon must come from the JSON.
+- On swipe left on the “to do” items, a button should appear which
+  console.log(id + ‘: completed’)
+  on click. The complete should also be triggered if the card is swiped far to the left.
