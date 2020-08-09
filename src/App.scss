@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.mobile-view {
+  scroll-behavior: smooth;
+  margin-top: 20px;
+  width: 360px;
+  min-height: 560px;
+  background-color: #d8d8d8;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.8rem;
+
+  header {
+    margin-top: 20px;
+    position: relative;
+    p {
+      display: block;
+      text-align: center;
+      font-weight: 600;
+      letter-spacing: 2px;
+    }
+    i {
+      position: absolute;
+    }
+  }
+}
